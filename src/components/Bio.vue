@@ -1,5 +1,5 @@
 <template>
-    <div id="box" class="mx-16 px-8 py-6 h-[32rem] flex border-neutral-800 border-2">
+    <div id="box" class="mx-16 px-8 py-6 h-[32rem] flex flex-wrap border-neutral-800 border-2">
         <div id="firstbox" class="w-[70%]">
             <h1 class="text-[7rem]">Aayush Paudel</h1>
             <p class="text-[1.15rem] font-mono antialiased">I am a developer with a passion for Python programming. I am currently expanding my skills by learning web design and always looking for new challenges to improve my abilities in this field. You can connect with me on the links below.</p>

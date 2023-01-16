@@ -1,8 +1,8 @@
 <template>
-    <nav class="h-36">
-        <ul class="flex text-lg font-bold font-mono">
+    <nav>
+        <ul class="flex flex-wrap items-center justify-center text-lg font-bold font-mono">
             <li @click="makeSelect(item)" v-for="item in nav_items" :key="item.title"
-                class="cursor-pointer mx-36 my-20 px-3" :class="{selected: item.isSelected}">{{ item.title }}</li>
+                class="cursor-pointer mx-10 my-14 px-3" :class="{selected: item.isSelected}">{{ item.title }}</li>
         </ul>
     </nav>
 </template>
