@@ -17,15 +17,15 @@ export default {
                 'isSelected': true
             },
             {
-                'title': 'PORTOFOLIO',
+                'title': 'PROJECTS',
                 'isSelected': false
             },
             {
-                'title': 'PODCAST',
+                'title': 'MY WORK',
                 'isSelected': false
             },
             {
-                'title': 'BLOG',
+                'title': 'CONTACT',
                 'isSelected': false
             }
             ]

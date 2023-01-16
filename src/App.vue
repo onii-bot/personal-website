@@ -3,11 +3,8 @@
 <Bio v-if="this.nav_items[0].isSelected" />
 <Portofolio v-if="this.nav_items[1].isSelected" />
 <Podcast v-if="this.nav_items[2].isSelected" />
-<Blog v-if="this.nav_items[3].isSelected" />
-<!-- <Bio v-if="true" />
-<Portofolio v-if="false" />
-<Podcast v-if="false" />
-<Blog v-if="false" /> -->
+<Contact v-if="this.nav_items[3].isSelected" />
+<Footer />
 </template>
 
 <script>
@@ -15,7 +12,8 @@ import Navbar from "./components/Navbar.vue";
 import Bio from "./components/Bio.vue";
 import Portofolio from "./components/Portofolio.vue";
 import Podcast from "./components/Podcast.vue";
-import Blog from "./components/Blog.vue";
+import Contact from "./components/Contact.vue";
+import Footer from "./components/Footer.vue";
 export default {
   name: 'App',
   components: {
@@ -23,8 +21,8 @@ export default {
     Bio,
     Portofolio,
     Podcast,
-    Blog
-
+    Contact,
+    Footer
   },
   data() {
         return {
@@ -33,15 +31,15 @@ export default {
                 'isSelected': true
             },
             {
-                'title': 'PORTOFOLIO',
+                'title': 'PROJECTS',
                 'isSelected': false
             },
             {
-                'title': 'PODCAST',
+                'title': 'MY WORK',
                 'isSelected': false
             },
             {
-                'title': 'BLOG',
+                'title': 'CONTACT',
                 'isSelected': false
             }
             ]
