@@ -1,5 +1,5 @@
 <template>
-    <footer class="fixed flex justify-between bottom-0 bg-current/25 w-full p-5 z-[60]">
+    <footer class="relative flex justify-between bottom-0 bg-current/25 w-full p-5 z-[60]">
         <span class="text-sm text-center text-black">© <a href="/" class="hover:underline">Website By Ash™</a>
         </span>
         <span class="flex space-x-4">
