@@ -32,7 +32,7 @@ export default {
         return {
             contacts: [
                 { "id": "1.", "title": " Github", "isHovered": false , "link":"https://github.com/onii-bot"},
-                { "id": "2.", "title": " Discord", "isHovered": false , "link":"https://discordapp.com/users/776716251997274112"},
+                { "id": "2.", "title": " Discord", "isHovered": false , "link":"https://discordapp.com/users/1041318610376871997"},
                 { "id": "3.", "title": " Twitter", "isHovered": false , "link":"https://twitter.com"},
                 { "id": " 4.", "title": "Instagram", "isHovered": false , "link":"https://www.instagram.com/ash._ua/"},
                 { "id": " 5.", "title": "Gmail", "isHovered": false , "link":"mailto: aayushpaudel311@gmail.com"},
